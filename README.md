@@ -1,6 +1,6 @@
 #  Dorks
 
-|"conatins default dorks of google"|
+|: "conatins default dorks of google": |
 
 
 # site:.edu “phone number”– This Dork searches for websites on .edu domains that contain the words “phone number”. student “phone number” – This Dork searches for websites on .edu domains that contain the words “student” and “phone number”.
