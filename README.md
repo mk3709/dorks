@@ -1,6 +1,5 @@
-#  Dorks
+# GOOGLE  Dorks
 
-* "conatins default dorks of google": 
 
 
 # site:.edu “phone number” – 
