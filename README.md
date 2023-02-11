@@ -1,3 +1,3 @@
 # dorks
 
-#conatins default dorks of google
+# conatins default dorks of google
