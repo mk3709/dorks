@@ -16,9 +16,13 @@ This Dork searches for websites on .mil domains that contain the words “powere
 This Dork searches for websites on .edu domains that contain the words “powered by vbulletin”. This Dork searches for school websites that are running on the vbulletin forum software.
 # “powered by vbulletin” inurl:.mil – 
 This Dork searches for websites on .mil domains that contain the words “powered by vbulletin”. This Dork searches for military websites that are running on the vbulletin forum software.
+
 # inurl:.com “powered by vbulletin” – 
-This Dork searches for websites on .com domains that contain the words “powered by vbulletin”. This Dork searches for websites that are running on the vbulletin forum software.
+**This Dork searches for websites on .com domains that contain the words “powered by vbulletin”. This Dork searches for websites that are running on the vbulletin forum software.
+
 # "inurl:.edu “register forum” – 
 This Dork searches for websites on .edu domains that contain the words “register forum”. This Dork searches for school websites that allow you to register for a forum."
+
+
 # "inurl:.gov “register forum” – 
 This Dork searches for websites on .gov domains that contain the words “register forum”. This Dork searches for governmental websites that allow you to register for a forum."
