@@ -1,25 +1,25 @@
 # dorks
 
 
-#CYBER SECURITY — GOOGLE DORKS
+# CYBER SECURITY — GOOGLE DORKS
 
-#Finding exposed FTP servers
+# Finding exposed FTP servers
 Google can index open FTP servers. Use the following Google Dork to find open FTP servers.
 
 intitle:”index of” inurl:ftp
 
 To make the query more interesting, we can add the “intext” Google Dork, which is used to locate a specific word within the returned pages
 
-#Find email lists
+# Find email lists
 It is relatively easy to find email lists using Google Dorks. In the following example, we are going to find text files that contain email lists.
 
 filetype:txt inurl:”email.txt”
 
-#Live cameras We can use Google to find open cameras that are not access restricted by IP address. The following Google dorks retrieve live cameras web pages.
+# Live cameras We can use Google to find open cameras that are not access restricted by IP address. The following Google dorks retrieve live cameras web pages.
 
 inurl:”view.shtml” “Network Camera”
 
-#Finding passwords
+# Finding passwords
 Finding passwords is the most attractive task for both legitimate and ill-intentioned online searchers. The following Google Dorks retrieve exposed passwords.
 
 site:pastebin.com intext:admin.password (find the text “admin.password” in the Pastebin website; this site is used by hackers to publish sensitive leaked information)’
@@ -28,7 +28,7 @@ site:pastebin.com intext:admin.password (find the text “admin.password” in t
 
 filetype:log intext:password after:2016 intext:@gmail.com | @yahoo.com | @hotmail.com (search for all files of type “log” that contain the word “password” within them, are indexed after 2016, and contain any of the following text in their body: @gmail.com, @yahoo.com, or @hotmail.com)
 
-#OTHER DORKS LIST -github source
+# OTHER DORKS LIST -github source
 
 site:static.ow.ly/docs/ intext:@gmail.com | Password
 filetype:sql intext:wp_users phpmyadmin
